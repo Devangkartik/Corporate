@@ -12,7 +12,7 @@ const About = () => {
     const javascript = 76
     const react = 83
    const responsive = 85;
-   const photoshop = 88;
+ 
 
   return (
     <section id="about" className="block about-block">
@@ -27,25 +27,21 @@ const About = () => {
         </Col>
         <Col sm={6}>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dicta veritatis sint quidem asperiores magni eaque praesentium temporibus, magnam, eveniet consequatur possimus nihil? Nemo deserunt repudiandae soluta neque doloribus, quo!</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae alias ex error distinctio laudantium recusandae, iure. Vel nisi soluta, minus consectetur reiciendis laborum, laudantium perspiciatis quos molestias quam eum.</p>
+         
           <div className='progress-block'>
-            <h4>HTML / CSS / Javascript</h4>
+            <h4>HTML / CSS / Bootstrap</h4>
             <ProgressBar now={html} label={`${html}%`} />
           </div>
           <div className='progress-block'>
-            <h4>responsive</h4>
+            <h4>responsive / Tailwind CSS</h4>
             <ProgressBar now={responsive} label={`${responsive}%`} />
           </div>
           <div className='progress-block'>
-            <h4>Photoshop</h4>
-            <ProgressBar now={photoshop} label={`${photoshop}%`} />
-          </div>
-          <div className='progress-block'>
-            <h4>javascript</h4>
+            <h4>javascript/ES6</h4>
             <ProgressBar now={javascript} label={`${javascript}%`} />
           </div>
           <div className='progress-block'>
-            <h4>React</h4>
+            <h4>React 18</h4>
             <ProgressBar now={react} label={`${react}%`} />
           </div>
         </Col>
