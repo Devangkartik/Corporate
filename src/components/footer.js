@@ -23,12 +23,12 @@ function AppFooter() {
 
   return (
     <Container fluid>
-      <div className="copyright">&copy; 2022 Corporate. All Right Reserved.</div>
+      <div className="copyright">&copy; 2024 Portfolio. All Right Reserved.</div>
       <div className="socials">
         <ul>
-          <li><a href="https://www.facebook.com"><i className="fab fa-facebook-f"></i></a></li>
-          <li><a href="https://www.twitter.com"><i className="fab fa-twitter"></i></a></li>
-          <li><a href="https://www.linkedin.com"><i className="fab fa-linkedin-in"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/devang-kartik-14758923a/"><i className="fab fa-linkedin-in"></i></a></li>
+          <li><a href="https://x.com/DevangKart6035"><i className="fab fa-twitter"></i></a></li>
+          <li><a href="https://github.com/Devangkartik"><i className="fab fa-github"></i></a></li>
         </ul>
       </div>
       {

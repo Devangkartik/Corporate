@@ -6,27 +6,27 @@ import Card from 'react-bootstrap/Card';
 const blogData = [
   {
     id: 1,
-    image: require('../assets/images/blog1.jpg'),
-    time: '15 Nov 2016',
-    title: 'Coffee Lovers',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, asperiores eaque quibusdam eum quod cum nesciunt.',
-    link: 'https://www.google.com'
+    image: require('../assets/images/blog1.png'),
+    time: '15 August 2024',
+    title: 'Netflix Gpt',
+    description: 'Most challenging project ! Well, it not only proved to be challenging, but it also proved to be one of the finest things I have ever done. However every project have its own set of challenges, generally these are exclusive in nature.',
+    link: 'https://github.com/Devangkartik/netflix-gtp'
   },
   {
     id: 2,
-    image: require('../assets/images/blog2.jpg'),
-    time: '10 Nov 2016',
-    title: 'Tips for UI Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, asperiores eaque quibusdam eum quod cum nesciunt.',
-    link: 'https://www.facebook.com'
+    image: require('../assets/images/blog2.png'),
+    time: '10 march 2024',
+    title: 'Youtube UI Design',
+    description: '🦾About : - Its my second project to journey of forntend developer so its not much challenging for me but definetly i am done lot of mistake and much more learn thoes mistakes . 🥳 I am currently working on it to improve its UI layer and add some other functionalities',
+    link: 'https://github.com/Devangkartik/my-youtube'
   },
   {
     id: 3,
     image: require('../assets/images/blog3.jpg'),
-    time: '07 Nov 2016',
-    title: 'Beautiful Day',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, asperiores eaque quibusdam eum quod cum nesciunt.',
-    link: 'https://www.twitter.com'
+    time: '07 Feb 2024',
+    title: 'Text Modifier',
+    description: 'This wesite is modify your text in uppercase , lowercase , forSpace , counting words , clear box and useState hook which change the mode of application .',
+    link: 'https://github.com/Devangkartik/text-modifier'
   }
 ]
 
@@ -35,8 +35,8 @@ function AppBlog() {
     <section id="blog" className="block blog-block">
       <Container fluid>
         <div className="title-holder">
-          <h2>Latest from blog</h2>
-          <div className="subtitle">get our latest news from blog</div>
+          <h2>Latest Projects</h2>
+          <div className="subtitle">Get latest Projects</div>
         </div>
         <Row>
           {
