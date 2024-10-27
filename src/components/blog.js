@@ -17,7 +17,7 @@ const blogData = [
     image: require('../assets/images/blog2.png'),
     time: '10 march 2024',
     title: 'Youtube UI Design',
-    description: '🦾About : - Its my second project to journey of forntend developer so its not much challenging for me but definetly i am done lot of mistake and much more learn thoes mistakes . 🥳 I am currently working on it to improve its UI layer and add some other functionalities',
+    description: '🦾About : - Its my second project to journey of forntend developer so its not much challenging for me but definetly i am done lot of mistake and much more learn thoes mistakes .',
     link: 'https://github.com/Devangkartik/my-youtube'
   },
   {
@@ -25,7 +25,7 @@ const blogData = [
     image: require('../assets/images/blog3.jpg'),
     time: '07 Feb 2024',
     title: 'Text Modifier',
-    description: 'This wesite is modify your text in uppercase , lowercase , forSpace , counting words , clear box and useState hook which change the mode of application .',
+    description: 'This wesite is modify your text in uppercase , lowercase , forSpace , counting words , clear box.',
     link: 'https://github.com/Devangkartik/text-modifier'
   }
 ]
